@@ -1,131 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>SALPATO – Premium Wines & Olive Oils</title>
+<meta charset="UTF-8">
+<title>SALPATO</title>
+<style>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Georgia', serif;
-      background: #0f0f0f;
-      color: #f5f5f5;
-    }
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #0B0B0B;
+  color: #F5F2ED;
+}
 
-    header {
-      height: 100vh;
-      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-      url('https://images.unsplash.com/photo-1510626176961-4b57d4fbad03');
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+header {
+  text-align: center;
+  padding: 120px 20px;
+}
 
-    header h1 {
-      font-size: 60px;
-      letter-spacing: 4px;
-      margin: 0;
-    }
+h1 {
+  font-size: 70px;
+  letter-spacing: 8px;
+  color: #C6A85B;
+  margin-bottom: 10px;
+}
 
-    header p {
-      font-size: 18px;
-      margin-top: 10px;
-      color: #d4af37;
-    }
+.subtitle {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
 
-    section {
-      padding: 80px 20px;
-      max-width: 900px;
-      margin: auto;
-      text-align: center;
-    }
+.section {
+  padding: 100px 20px;
+  text-align: center;
+}
 
-    h2 {
-      color: #d4af37;
-      letter-spacing: 2px;
-      margin-bottom: 30px;
-    }
+.section h2 {
+  color: #C6A85B;
+  margin-bottom: 20px;
+}
 
-    .wine {
-      margin-bottom: 40px;
-      border-bottom: 1px solid #333;
-      padding-bottom: 20px;
-    }
+.text {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
 
-    .wine h3 {
-      margin-bottom: 10px;
-    }
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 40px;
+  border: 1px solid #C6A85B;
+  color: #C6A85B;
+  text-decoration: none;
+  transition: 0.3s;
+}
 
-    .about {
-      font-style: italic;
-      line-height: 1.8;
-    }
+.button:hover {
+  background-color: #C6A85B;
+  color: black;
+}
 
-    footer {
-      background: #000;
-      padding: 30px;
-      text-align: center;
-      font-size: 14px;
-      color: #aaa;
-    }
+.image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 40px;
+}
 
-    a {
-      color: #d4af37;
-      text-decoration: none;
-    }
+footer {
+  text-align: center;
+  padding: 50px;
+  font-size: 14px;
+  opacity: 0.6;
+}
 
-  </style>
+</style>
 </head>
 
 <body>
 
 <header>
   <h1>SALPATO</h1>
-  <p>Curated Italian Wines & Olive Oils</p>
+  <div class="subtitle">Boutique Italian Wine & Oil Sourcing</div>
+  <p class="text">
+    We connect fine dining restaurants with exceptional small Italian producers,
+    offering a curated selection of wines and olive oils rooted in tradition and excellence.
+  </p>
+  <a href="#contact" class="button">Request Portfolio</a>
 </header>
 
-<section>
-  <h2>Our Selection</h2>
-
-  <div class="wine">
-    <h3>Barolo DOCG</h3>
-    <p>
-      A noble expression of Piedmont, aged with patience and crafted with tradition. 
-      Deep, structured, and unforgettable.
-    </p>
-  </div>
-
-  <div class="wine">
-    <h3>Chianti Classico</h3>
-    <p>
-      Authentic Tuscan character, vibrant and elegant, made for convivial moments 
-      and timeless Italian tables.
-    </p>
-  </div>
-
-</section>
-
-<section>
+<div class="section">
   <h2>Our Philosophy</h2>
-  <p class="about">
-    SALPATO is rooted in Italian heritage and guided by a passion for excellence.  
-    Each bottle and each drop of oil tells a story of land, craftsmanship, and tradition.  
-    We carefully select products that embody authenticity, quality, and timeless taste.
+  <p class="text">
+    SALPATO is built on relationships with independent Italian producers.
+    We focus on quality over volume, selecting only authentic products that
+    reflect the heritage, terroir, and craftsmanship of Italy.
   </p>
-</section>
+  <img class="image" src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb">
+</div>
 
-<section>
+<div class="section">
+  <h2>For Restaurants</h2>
+  <p class="text">
+    We supply high-end restaurants seeking unique labels and premium olive oils.
+    Our portfolio is designed for establishments that value distinction,
+    storytelling, and uncompromising quality.
+  </p>
+  <img class="image" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187">
+</div>
+
+<div class="section" id="contact">
   <h2>Contact</h2>
-  <p>Private orders and inquiries:</p>
-  <p>Email: your@email.com</p>
-  <p>Instagram: @salpato</p>
-</section>
+  <p class="text">
+    To request our portfolio or start a collaboration:
+    <br><br>
+    <b>Email:</b> salpato@email.com
+  </p>
+</div>
 
 <footer>
-  <p>© 2026 SALPATO – All rights reserved</p>
+  © SALPATO — Italian Excellence
 </footer>
 
 </body>
